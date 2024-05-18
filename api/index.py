@@ -19,5 +19,4 @@ domains = {}
 
 
 tld_server = TLDServer(app=app, tlds=["com"], domains=domains)
-tld_server.add_domain(domain_name="home.site", key=secrets.randbits(256), owner="warp-project", ip="warp.thecommcraft.de")
-tld_server.add_domain(domain_name="home.tcc", key=secrets.randbits(256), owner="thecommcraft", ip="thecommcraft.de")
+tld_server.add_domain(domain_name="home.com", key=secrets.randbits(256), owner="justablock", ip="justablock.online")
