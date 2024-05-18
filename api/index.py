@@ -18,6 +18,6 @@ def about():
 domains = {}
 
 
-tld_server = TLDServer(app=app, tlds=["site", "tcc"], domains=domains)
+tld_server = TLDServer(app=app, tlds=["com"], domains=domains)
 tld_server.add_domain(domain_name="home.site", key=secrets.randbits(256), owner="warp-project", ip="warp.thecommcraft.de")
 tld_server.add_domain(domain_name="home.tcc", key=secrets.randbits(256), owner="thecommcraft", ip="thecommcraft.de")
